@@ -1,0 +1,9 @@
+venv/
+env/
+myenv/
+*.pyc
+__pycache__/
+
+Lib/
+Scripts/
+include/
