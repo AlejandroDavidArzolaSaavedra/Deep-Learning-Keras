@@ -39,34 +39,6 @@ Se llevará a cabo la experimentación con las siguientes variables:
 6. **Número de epoch:** Variará el número de epoch durante el entrenamiento.
 7. **Tamaño del batch:** Se experimentará con diferentes tamaños de lote.
 
-## Resultados y Análisis
-
-A continuación, se presenta una tabla con los resultados obtenidos para cada conjunto de datos, destacando las configuraciones de hiperparámetros que ofrecieron el mejor rendimiento:
-
-### Conjunto de Datos Iris setosa
-
-| Configuración                | Precisión | Pérdida |
-|------------------------------|-----------|---------|
-| Configuración 1               | 0.95      | 0.12    |
-| Configuración 2               | 0.96      | 0.10    |
-| **Mejor Configuración**       | 0.96      | 0.10    |
-
-### Conjunto de Datos Iris versicolor
-
-| Configuración                | Precisión | Pérdida |
-|------------------------------|-----------|---------|
-| Configuración 1               | 0.92      | 0.15    |
-| Configuración 2               | 0.94      | 0.12    |
-| **Mejor Configuración**       | 0.94      | 0.12    |
-
-### Conjunto de Datos Iris virginica
-
-| Configuración                | Precisión | Pérdida |
-|------------------------------|-----------|---------|
-| Configuración 1               | 0.89      | 0.18    |
-| Configuración 2               | 0.91      | 0.15    |
-| **Mejor Configuración**       | 0.91      | 0.15    |
-
 ## Mejores Configuraciones y Análisis
 
 Las configuraciones que ofrecieron el mejor rendimiento fueron aquellas con una mayor cantidad de capas ocultas y neuronas intermedias, utilizando la función de activación ReLU, el optimizador Adam, la función de pérdida categorical crossentropy, un número mayor de épocas y un tamaño de lote moderado.
