@@ -27,6 +27,15 @@ El conjunto de datos Iris consta de tres clases de flores:
   </a>
 </ul>
 
+## 📖 Librerías utilizadas
+
+[![Pandas](https://img.shields.io/badge/Pandas-%23191919?style=for-the-badge&logo=pandas)](Link_A_Tu_Pagina_De_Pandas)
+[![Keras](https://img.shields.io/badge/Keras-%23D00000?style=for-the-badge&logo=keras)](Link_A_Tu_Pagina_De_Keras)
+[![scikit-learn](https://img.shields.io/badge/scikit_learn-%23191919?style=for-the-badge&logo=scikit-learn)](Link_A_Tu_Pagina_De_scikit_learn)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-black?style=for-the-badge&logo=tensorflow)](Link_A_Tu_Pagina_De_TensorFlow)
+[![JSON](https://img.shields.io/badge/JSON-%23000000?style=for-the-badge&logo=json)](Link_A_Tu_Pagina_De_JSON)
+[![NumPy](https://img.shields.io/badge/NumPy-%23013243?style=for-the-badge&logo=numpy)](Link_A_Tu_Pagina_De_NumPy)
+
 ## Experimentación con Hiperparámetros
 
 Se llevará a cabo la experimentación con las siguientes variables:
