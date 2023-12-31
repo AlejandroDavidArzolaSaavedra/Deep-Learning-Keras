@@ -1,25 +1,25 @@
-# 📄 Práctica: Experimentación en Redes Neuronales - Keras
+<h1 align="center">📄 Neural Network Experimentation Iris - Keras</h1>
 
 <img align="left" width="250" height="180" src="https://i.imgur.com/RsmO2hP.gif?raw=true"></a>
-Esta práctica tiene como objetivo explorar y comparar diferentes configuraciones de hiperparámetros en redes neuronales aplicadas al conjunto de datos Iris.
+This practice aims to explore and compare different hyperparameter configurations in neural networks applied to the Iris dataset.
 
-Se experimentará con variables como el número de capas 🏗️, el número de neuronas por capa 🤖, las funciones de activación ⚡, el optimizador 🚀, la función de pérdida 📉, el número de épocas ⏳, el tamaño del batch 📦, entre otros.
+We will experiment with variables such as the number of layers 🏗️, the number of neurons per layer 🤖, activation functions ⚡, optimizer 🚀, loss function 📉, number of epochs ⏳, batch size 📦, among others.
 <div id="user-content-toc">
   <ul>
-    <summary><h2 style="display: inline-block">¡Que los experimentos comiencen! 🚀🔬💻</h2></summary>
+    <summary><h2 style="display: inline-block">Let the experiments begin! 🚀🔬💻</h2></summary>
   </ul>
 </div>
 
-# 👥 Equipo de desarrollo (Ctrl + Click para ver los perfiles)
+# 👥 Development Team (Ctrl + Click to view profiles)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Andrea%20Santana%20Lopez-purple?style=flat-square&logo=github)](https://github.com/AndreaSantalos)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Alejandro%20David%20Arzola%20Saavedra-blue?style=flat-square&logo=github)](https://github.com/AlejandroDavidArzolaSaavedra)
 
 
-## Conjunto de Datos Iris 🌷
+## Iris Dataset 🌷
 
-El conjunto de datos Iris consta de tres clases de flores:
+The Iris dataset consists of three classes of flowers:
 
 <ul align="center">		
   <a href="https://www.kaggle.com/datasets/uciml/iris" target="_blank">
@@ -27,52 +27,52 @@ El conjunto de datos Iris consta de tres clases de flores:
   </a>
 </ul>
 
-## 📖 Librerías utilizadas
+## 📖 Used Libraries
 
-[![Pandas](https://img.shields.io/badge/Pandas-%23191919?style=for-the-badge&logo=pandas)](Link_A_Tu_Pagina_De_Pandas)
-[![Keras](https://img.shields.io/badge/Keras-%23D00000?style=for-the-badge&logo=keras)](Link_A_Tu_Pagina_De_Keras)
-[![scikit-learn](https://img.shields.io/badge/scikit_learn-%23191919?style=for-the-badge&logo=scikit-learn)](Link_A_Tu_Pagina_De_scikit_learn)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-black?style=for-the-badge&logo=tensorflow)](Link_A_Tu_Pagina_De_TensorFlow)
-[![JSON](https://img.shields.io/badge/JSON-%23000000?style=for-the-badge&logo=json)](Link_A_Tu_Pagina_De_JSON)
-[![NumPy](https://img.shields.io/badge/NumPy-%23013243?style=for-the-badge&logo=numpy)](Link_A_Tu_Pagina_De_NumPy)
+[![Pandas](https://img.shields.io/badge/Pandas-%23191919?style=for-the-badge&logo=pandas)](Link_To_Your_Pandas_Page)
+[![Keras](https://img.shields.io/badge/Keras-%23D00000?style=for-the-badge&logo=keras)](Link_To_Your_Keras_Page)
+[![scikit-learn](https://img.shields.io/badge/scikit_learn-%23191919?style=for-the-badge&logo=scikit-learn)](Link_To_Your_Scikit_Learn_Page)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-black?style=for-the-badge&logo=tensorflow)](Link_To_Your_TensorFlow_Page)
+[![JSON](https://img.shields.io/badge/JSON-%23000000?style=for-the-badge&logo=json)](Link_To_Your_JSON_Page)
+[![NumPy](https://img.shields.io/badge/NumPy-%23013243?style=for-the-badge&logo=numpy)](Link_To_Your_NumPy_Page)
 
-## Experimentación con Hiperparámetros
+## Hyperparameter Experimentation
 
-Se llevará a cabo la experimentación con las siguientes variables:
+Experimentation will be conducted with the following variables:
 
-1. **Número de capas:** Se probarán diferentes configuraciones de capas ocultas.
-2. **Número de neuronas por capa:** Variará el número de neuronas en cada capa oculta.
-3. **Funciones de activación:** Se evaluarán diferentes funciones de activación, como ReLU, sigmoid, tanh, entre otras.
-4. **Optimizador:** Se compararán optimizadores como SGD, Adam, RMSprop, entre otros.
-5. **Función de pérdida:** Se probarán diversas funciones de pérdida, como categorical crossentropy, mean squared error, etc.
-6. **Número de epoch:** Variará el número de epoch durante el entrenamiento.
-7. **Tamaño del batch:** Se experimentará con diferentes tamaños de lote.
+1. **Number of layers:** Different configurations of hidden layers will be tested.
+2. **Number of neurons per layer:** The number of neurons in each hidden layer will vary.
+3. **Activation functions:** Different activation functions such as ReLU, sigmoid, tanh, among others, will be evaluated.
+4. **Optimizer:** Comparisons will be made with optimizers like SGD, Adam, RMSprop, among others.
+5. **Loss function:** Various loss functions such as categorical crossentropy, mean squared error, etc., will be tested.
+6. **Number of epochs:** The number of epochs during training will vary.
+7. **Batch size:** Different batch sizes will be experimented with.
 
-## Mejores Configuraciones y Análisis
+## Best Configurations and Analysis
 
-Las configuraciones que ofrecieron el mejor rendimiento fueron aquellas con una mayor cantidad de capas ocultas y neuronas intermedias, utilizando la función de activación ReLU, el optimizador Adam, la función de pérdida categorical crossentropy, un número mayor de épocas y un tamaño de lote moderado.
+Configurations that offered the best performance were those with a higher number of hidden layers and intermediate neurons, using the ReLU activation function, the Adam optimizer, categorical crossentropy loss function, a higher number of epochs, and a moderate batch size.
 
-Se observó que configuraciones más complejas y profunda red neuronal resultaron en un mejor rendimiento, especialmente para el conjunto de datos Iris versicolor y Iris virginica.
+It was observed that more complex and deeper neural network configurations resulted in better performance, especially for the Iris versicolor and Iris virginica datasets.
 
-## Cómo Ejecutar la Experimentación
+## How to Run the Experimentation
 
-Para ejecutar la experimentación y realizar pruebas, sigue estos pasos:
+To run the experimentation and perform tests, follow these steps:
 
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository to your local machine:
 ```bash
 git clone <https://github.com/AlejandroDavidArzolaSaavedra/practicas_fsi/edit/deepLearningKeras>
 ```
-2. Navega al directorio de la práctica:
+2. Navigate to the practice directory:
 ```bash
 cd deepLearningKeras
 ```
-3. Ejecuta el programa principal con los archivos modificados:
+3. Run the main program with the modified files:
 ```bash
 python Keras_iris.ipynb
 ```
 
-Observa los resultados de las pruebas y las comparaciones entre las diferentes configuraciones de hiperparámetros. ¡Experimenta y ajusta para obtener los mejores resultados! 
+Observe the results of the tests and comparisons between different hyperparameter configurations. Experiment and adjust to achieve the best results!
 
-# 🤝 Contribuciones
+# 🤝 Contributions
 
-Si deseas contribuir a este proyecto, siéntete libre de hacerlo. Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) para mejorar el código o agregar nuevas características. ¡Tu colaboración es bienvenida!
+If you wish to contribute to this project, feel free to do so. You can open issues or send pull requests to improve the code or add new features. Your collaboration is welcome!
