@@ -60,7 +60,7 @@ To run the experimentation and perform tests, follow these steps:
 
 1. Clone this repository to your local machine:
 ```bash
-git clone <https://github.com/AlejandroDavidArzolaSaavedra/practicas_fsi/edit/deepLearningKeras>
+git clone <https://github.com/AlejandroDavidArzolaSaavedra/practicas_fsi/edit/Deep-Learning-Keras-Iris>
 ```
 2. Navigate to the practice directory:
 ```bash
@@ -75,5 +75,4 @@ Observe the results of the tests and comparisons between different hyperparamete
 
 # 🤝 Contributions
 
-<img align="left" width="200" height="200" src="https://github.com/AlejandroDavidArzolaSaavedra/PAMN_practicas/assets/90756437/1066c948-efb6-45b6-ac18-d81015abf332">
 If you wish to contribute to this project, feel free to do so. You can open issues or send pull requests to improve the code or add new features. Your collaboration is welcome!
