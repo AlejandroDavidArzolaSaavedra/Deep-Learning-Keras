@@ -23,7 +23,7 @@ The Iris dataset consists of three classes of flowers:
 
 <ul align="center">		
   <a href="https://www.kaggle.com/datasets/uciml/iris" target="_blank">
-    <img style="width:50rem"  src="https://i.imgur.com/LoELZjM.png">
+    <img width="800px"  src="https://i.imgur.com/LoELZjM.png">
   </a>
 </ul>
 
@@ -74,5 +74,5 @@ python Keras_iris.ipynb
 Observe the results of the tests and comparisons between different hyperparameter configurations. Experiment and adjust to achieve the best results!
 
 # 🤝 Contributions
-
+<img align="left" width="120" height="160" src="https://github.com/AlejandroDavidArzolaSaavedra/Deep-Learning-Keras-Iris/assets/90756437/94ff686a-acbe-43fd-9475-ec95af174b20">
 If you wish to contribute to this project, feel free to do so. You can open issues or send pull requests to improve the code or add new features. Your collaboration is welcome!
